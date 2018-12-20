@@ -1,0 +1,43 @@
+/* ---
+  Quick and dirty dark (and minimal) mode for Fort-Friend. Saves my eyes on late-night game sessions.
+--- */
+
+.ant-menu-root.ant-menu-inline,
+.ant-menu-root.ant-menu-vertical,
+.ant-menu-root.ant-menu-vertical-left,
+.ant-menu-root.ant-menu-vertical-right,
+.ant-menu-sub.ant-menu-inline,
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #444;
+    color: #fff;
+}
+
+.ant-card-wider-padding,
+.ant-card-bordered,
+.disqusContainer {
+    display: none;
+}
+
+/* Sets the map size to the height of the viewport so you're not scrolling. Comment these two selectors out if not needed. */
+.react-draggable {
+    max-height: calc(100vh - 75px)!important;
+    max-width: calc(100vh - 75px)!important;
+}
+#mapid {
+    max-height: calc(100vh - 75px);
+}
+    
+.leaflet-bar a, .leaflet-bar a:hover {
+    background-color: rgba(40, 40, 40, 0.9);
+    color: #fff;
+    border-bottom: 1px solid #000;
+}
+
+.leaflet-bar a.leaflet-disabled {
+    background-color: rgba(20, 20, 20, 0.9);
+    color: #aaa;
+}
+
+.leaflet-bar a:last-child {
+    border-bottom: none;
+}
