@@ -9,6 +9,12 @@
     
     ytd-masthead {
         background: none;
+        opacity: 0.05;
+    }
+    
+    ytd-masthead:hover {
+        opacity: 1;
+        transition: opacity 0.2s linear;
     }
     
     ytd-topbar-logo-renderer, ytd-searchbox, ytd-topbar-menu-button-renderer {
