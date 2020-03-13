@@ -1,0 +1,34 @@
+/* ---
+  Nice and minimal fullpage look when Theater view is enabled. March 2020 edition.
+--- */
+
+@media screen and (min-device-width: 1000px) {
+    #container.ytd-masthead {
+        background-color: transparent;
+    }
+    
+    ytd-masthead {
+        background: none;
+    }
+    
+    ytd-topbar-logo-renderer, ytd-searchbox, ytd-topbar-menu-button-renderer {
+        display: none!important;
+    }
+    
+    #page-manager.ytd-app {
+        margin-top: 0;
+    }
+    
+    /* Video Maximise */
+    ytd-watch-flexy[theater] #player-theater-container.ytd-watch-flexy {
+        height: 100vh;
+        max-height: 100vh;
+    }
+    
+    #player-theater-container .video-stream.html5-main-video {
+        width: 100vw!important;
+        height: 100vh!important;
+        top: auto!important;
+        left: auto!important;
+    }
+}
