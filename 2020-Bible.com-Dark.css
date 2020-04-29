@@ -1,0 +1,204 @@
+/**
+  --- General ---
+*/
+
+html,
+body,
+.row,
+#current-ui-view {
+    background: #111!important;
+    color: #f0f0f0!important;
+    font-weight: 500;
+}
+
+input,
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+    background-color: #222;
+    color: #fff;
+}
+input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="color"]:focus, textarea:focus {
+    background-color: #333;
+    color: #fff;
+}
+
+/**
+   --- Header ---
+*/
+
+.yv-sticky-header .yv-sticky-header-content {
+    background-color: #1a1a1a;
+    border-bottom-color: #333
+}
+.reader-header {
+    background-color: #111;
+}
+
+.yv-sticky-header-hidden .reader-header {
+    background-color: #0a0a0a;
+    border-bottom-color: #222;
+}
+
+.yv-header .yv-sticky-header-content .search {
+    background-color: #222;
+    border: none;
+}
+.yv-header .yv-sticky-header-content .search a {
+    display: flex;
+    align-items: center;
+}
+.yv-header .yv-sticky-header-content .search .searchicon-container {
+    background: none;
+}
+.yv-header .yv-sticky-header-content .search .searchicon-container g {
+    fill: #fafafa;
+}
+.yv-header .yv-sticky-header-content .search .search-input:focus {
+    background-color: #222;
+}
+
+
+/* Header Dropdowns */
+
+.picker-label {
+    border-bottom-color: #333;
+}
+.picker-label .dropdown-arrow-container {
+    background-color: #333;
+}
+.picker-label:hover .dropdown-arrow-container {
+    background-color: #6ab750;
+}
+.picker-label .dropdown-arrow-container .dropdown-arrow polygon {
+    fill: #fafafa;
+}
+
+.version-picker-modal,
+.chapter-picker-modal {
+    background-color: #1a1a1a;
+    border-color: #333
+}
+.version-picker-modal .header,
+.chapter-picker-modal .header {
+    background-color: #333;
+    border-color: #444;
+}
+.version-picker-modal .version-list,
+.version-picker-modal .language-list,
+.chapter-picker-modal .book-container {
+    background-color: #1a1a1a;
+}
+.version-picker-modal .version-list .versions a li,
+.version-picker-modal .language-list .languages li,
+.chapter-picker-modal .book-container .book-list li {
+    color: #f0f0f0;
+    font-weight: 500;
+}
+.version-picker-modal .version-list .versions a li:hover,
+.version-picker-modal .language-list .languages li:hover,
+.chapter-picker-modal .book-container .book-list li:hover {
+    background-color: #2a2a2a!important;
+}
+
+
+.version-picker-modal .version-container,
+.chapter-picker-modal .chapter-container {
+    border-left-color: #444;
+}
+.version-picker-modal .version-container .change-language {
+    border-bottom-color: #444;
+}
+
+.version-picker-modal .version-list .version-header {
+    color: #fff;
+}
+.version-picker-modal .version-list .versions:first-of-type {
+    background-color: #333;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+.chapter-picker-modal .chapter-container .chapter-list a li {
+    background-color: #1a1a1a;
+    border-color: #444;
+    color: #fafafa;
+}
+.chapter-picker-modal .chapter-container .chapter-list a li:hover {
+    background-color: #2a2a2a!important;
+}
+.chapter-picker-modal .chapter-container .chapter-list a li.active:hover {
+    background-color: #6ab750!important;
+}
+
+/**
+   --- Bible Reader ---
+*/
+
+.circle-buttons {
+    background-color: #1a1a1a!important;
+    border-color: #333!important;
+}
+.circle-buttons:active,
+.circle-buttons:focus,
+.circle-buttons:hover {
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.8);
+    border-color: #fff;
+}
+
+/**
+  --- Modals
+*/
+
+.yv-fullscreen-modal-content {
+    background-color: #111;
+}
+
+.yv-fullscreen-drawer .vertical-center {
+    background-color: #1a1a1a;
+}
+.yv-fullscreen-drawer .vertical-center svg g {
+    fill: #ccc;
+}
+.yv-fullscreen-drawer .xmark-container .xmark polygon {
+    fill: #ccc;
+}
+.yv-fullscreen-drawer .drawer-title {
+    display: none;
+}
+
+.yv-lang-selector h2.title {
+    color: #ccc;
+    padding-top: 10px;
+}
+
+.yv-lang-selector .card {
+    background-color: #222;
+}
+
+.yv-lang-selector .language-selector a {
+    color: #ccc!important;
+}
+.yv-lang-selector .language-selector a:hover {
+    color: #fff!important;
+}
+
+/**
+  --- Footer ---
+*/
+
+.footer-container .yv-footer .yv-sticky-header-content {
+    background-color: #1a1a1a;
+    border-top-color: #333;
+}
+
+.footer-container .yv-footer .yv-lang-toggle {
+    border-color: #333;
+    color: #ccc;
+}
+
+.yv-sectioned-layout .yv-left svg g {
+    fill: #ccc;
+}
+
+.version-copyright {
+    color: #ccc;
+}
